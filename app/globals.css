@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.lilita-one-regular {
+  font-family: "Lilita One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.text-outline {
+  -webkit-text-stroke: 2px white;
+}
+.text-outline-hover {
+  -webkit-text-stroke: 2px white-transparent;
+}
+
+.h1 {
+  font-weight: 700;
+}
