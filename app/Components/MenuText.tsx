@@ -1,13 +1,12 @@
 "use client";
-import React from "react";
 import { useState } from "react";
 interface HeroTextProps {
   title: string;
-  fontSize?: string;
+
   bgColor?: string;
 }
 
-const HeroText = ({ title, fontSize, bgColor }: HeroTextProps) => {
+const HeroText = ({ title, bgColor }: HeroTextProps) => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   return (
