@@ -1,5 +1,3 @@
-"use client";
-
 import ContactPage from "./Components/ContactPage";
 import Hero from "./Components/Hero";
 

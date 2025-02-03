@@ -8,7 +8,7 @@ const MenuBtn = ({ title }: MenuBtnProps) => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   return (
-    <div className="flex w-[120px] h-[80px] mt-[5px] border rounded-[5px] relative overflow-hidden ">
+    <div className="flex w-[120px] h-[80px] mt-[5px] max-sm:w-[140px] max-sm:h-[40px] border rounded-[5px] relative overflow-hidden ">
       <div className="w-full h-full bg-black" style={{ opacity: 0.5 }}></div>
       <button
         onClick={() => handleClick}

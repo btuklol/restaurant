@@ -26,7 +26,7 @@ const HeroTextMenu = () => {
             transition={{ duration: 0.3 }}
           >
             {" "}
-            BESTALLA{" "}
+            BESTÄLLA{" "}
           </motion.button>
         </motion.h1>
         {click && <Menu />}
