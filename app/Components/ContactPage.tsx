@@ -24,13 +24,15 @@ const ContactPage = () => {
               alt="icon"
               className="w-[40%] h-[40%] z-20 "
             />
-            <div className="text-white text-lg">
-              VARJE BESÖK TILL NAGOMI KOMMER ANDRA TILL DINA SENASTE, SOM
-              VISIONEN AV VÅRA CHEFS OCH MENYEN UTVECKLAR.
+            <div className="w-5/12 h-2/12 flex items-center rounded-xl p-8 bg-black/50 font-bold">
+              <div className="text-white text-lg">
+                VARJE BESÖK TILL NAGOMI KOMMER ANDRA TILL DINA SENASTE, SOM
+                VISIONEN AV VÅRA CHEFS OCH MENYEN UTVECKLAR.
+              </div>
             </div>
           </div>
           <div className="w-full h-6/12 flex justify-between items-center gap-8 p-2 ">
-            <div className="w-6/12 text-white text-lg">
+            <div className="w-6/12 text-white text-lg font-bold bg-black/50 p-8 rounded-xl">
               Det är vårt mantra när vi strävar efter att leverera vårt bästa på
               alla sätt, varje dag
             </div>
@@ -45,7 +47,7 @@ const ContactPage = () => {
             </div>
           </div>
           <div className="w-full h-4/12 flex flex-col justify-between items-center gap-8 p-2 ">
-            <div className="w-full text-white text-lg">
+            <div className="w-full text-white text-lg bg-black/50 p-8 rounded-xl">
               Från de färskaste råvarorna, skaldjuren och köttet som är etiskt
               framställt av våra leverantörer, till vår snabba och vänliga
               service, arbetar Nagomi Sushi Poke hårt för att erbjuda en
