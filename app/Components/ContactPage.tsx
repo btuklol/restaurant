@@ -7,32 +7,30 @@ import { motion } from "framer-motion";
 
 const ContactPage = () => {
   return (
-    <div
-      className="w-full h-full flex justify-center items-center relative"
-      style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }} // 90% black with 50% transparency
-    >
+    <div className="w-full h-auto flex justify-center items-center relative md:p-8 mt-[10px] md:mt-0 lg:w-10/12 lg:p-0 lg:mt-[24px] ">
       <motion.div
-        className="w-[90%] h-[90%] flex justify-center items-center bg-black/50 p-8 rounded-xl shadow-lg z-20 "
+        style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }} // 90% black with 50% transparency
+        className="w-full h-full flex justify-center items-center bg-black/50  shadow-lg z-20 "
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
         <div className="w-full h-6/12 flex flex-col justify-start p-2">
-          <div className="w-full h-6/12  flex justify-between items-center gap-8 p-2 ">
+          <div className="w-full h-auto flex flex-col md:flex-row justify-between items-center gap-8 p-2  ">
             <img
               src="/LogoWhite.png"
               alt="icon"
-              className="w-[40%] h-[40%] z-20 "
+              className="w-[80%] md:[40%] h-[40%] lg:w-[40%] lg:p-8 z-20 "
             />
-            <div className="w-5/12 h-2/12 flex items-center rounded-xl p-8 bg-black/50 font-bold">
-              <div className="text-white text-lg">
+            <div className="w-full md:w-5/12 h-2/12 flex items-center rounded-xl p-8 bg-black/50 font-bold">
+              <div className="text-sm text-white md:text-lg">
                 VARJE BESÖK TILL NAGOMI KOMMER ANDRA TILL DINA SENASTE, SOM
                 VISIONEN AV VÅRA CHEFS OCH MENYEN UTVECKLAR.
               </div>
             </div>
           </div>
-          <div className="w-full h-6/12 flex justify-between items-center gap-8 p-2 ">
-            <div className="w-6/12 text-white text-lg font-bold bg-black/50 p-8 rounded-xl">
+          <div className="w-full h-auto flex flex-col md:flex-row justify-between items-center gap-8 p-2 ">
+            <div className="w-full md:w-6/12 text-white text-lg font-bold bg-black/50 p-2 md:p-8 rounded-xl">
               Det är vårt mantra när vi strävar efter att leverera vårt bästa på
               alla sätt, varje dag
             </div>
@@ -55,13 +53,14 @@ const ContactPage = () => {
               företag. Vårt team och våra kunder är en viktig del av den
               familjen.
             </div>
-            <div className="w-full flex justify-between items-center gap-8">
+            <div className="w-full flex flex-col md:flex-row justify-between items-center md:gap-8 ">
               <Branches
                 id={1}
                 branchName="Salbar1"
                 branchAddress="3,4 horoolol"
                 branchLocation="google map link1"
                 branchPhone="99876880"
+                img="/orebro.jfif"
               />
               <Branches
                 id={2}
@@ -69,6 +68,7 @@ const ContactPage = () => {
                 branchAddress="Sukhbaatar "
                 branchLocation="google map link2"
                 branchPhone="99804781"
+                img="/lindesberg.jfif"
               />
               <Branches
                 id={3}
@@ -76,6 +76,7 @@ const ContactPage = () => {
                 branchAddress="Bayanzurkh horoolol"
                 branchLocation="google map link3"
                 branchPhone="99876880"
+                img="/orebro.jfif"
               />
             </div>
           </div>

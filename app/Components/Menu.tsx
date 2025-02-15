@@ -11,7 +11,7 @@ const Menu = () => {
       className="absolute right-0 bottom-0 w-full h-[100px] flex flex-col justify-end items-end px-4 py-2  "
       onClick={handleClick}
     >
-      <div className="flex justify-between max-sm:flex-col items-end relative w-full h-full bg-transparent z-10">
+      <div className="flex justify-around max-sm:flex-col items-center  relative w-full h-full bg-transparent z-10">
         <motion.div
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}

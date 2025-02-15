@@ -16,7 +16,7 @@ const HeroText = () => {
             <motion.h1
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
-              className={`lilita-one-regular h1 text-outline text-transparent text-outline-hover text-[60px] xl:text-[180px] md:text-[130px] `}
+              className={`lilita-one-regular h1 text-outline text-transparent text-outline-hover  xl:text-[180px] text-[90px] `}
             >
               MENU
             </motion.h1>

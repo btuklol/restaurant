@@ -12,7 +12,7 @@ const HeroComp = () => {
         <motion.img
           src="/SVG/Bosoo.png"
           alt="icon"
-          className="w-[60%] h-[60%] z-20 "
+          className="w-[40%] md:w-[60%] md:h-[60%]  z-20 "
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 1 }}

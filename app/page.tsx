@@ -3,7 +3,7 @@ import Hero from "./Components/Hero";
 
 export default function Home() {
   return (
-    <div className="relative w-screen h-screen flex justify-center items-center border">
+    <div className="relative w-screen h-auto flex justify-center items-center border">
       <video
         className="fixed w-screen h-screen object-cover top-0 left-0 z-0"
         autoPlay
@@ -11,9 +11,12 @@ export default function Home() {
         loop
         src="/sushi.mp4"
       />
-      <div className="absolute top-0 left-0 mx-auto w-full h-screen flex justify-center flex-wrap items-center z-10 gap-8">
+      <div className="absolute top-0 left-0 mx-auto w-full h-auto flex justify-center flex-wrap items-center z-10 gap-2">
         <Hero />
-        <div id="contact" className="w-10/12 h-screen ">
+        <div
+          id="contact"
+          className=" w-[360px]  md:w-screen lg:flex lg:items-center lg:justify-center lg:w-full h-auto  "
+        >
           <ContactPage />
         </div>
       </div>

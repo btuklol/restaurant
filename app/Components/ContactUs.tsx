@@ -15,7 +15,7 @@ const ContactUs = () => {
           <motion.button
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.3 }}
-            className="lilita-one-regular h1 text-outline text-transparent text-outline-hover text-[40px] xl:text-[130px] md:text-[100px] sm:text-[40px]"
+            className="lilita-one-regular h1 text-outline text-transparent text-outline-hover text-[40px] xl:text-[130px] text-[70px] "
           >
             KONTAKT <br />
             OSS

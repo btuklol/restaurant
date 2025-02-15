@@ -15,7 +15,7 @@ const HeroTextMenu = () => {
 
       <motion.h1
         onClick={handleClick}
-        className={`lilita-one-regular relative cursor-pointer h1 text-outline text-transparent text-outline-hover text-[40px] xl:text-[140px] md:text-[100px] sm:text-[40px] `}
+        className={`lilita-one-regular text-[60px] relative cursor-pointer h1 text-outline text-transparent text-outline-hover text-[40px] xl:text-[140px] md:text-[60px] `}
         initial={{ y: 0 }}
         animate={{ y: click ? -50 : 0 }}
         transition={{ duration: 0.5 }}
@@ -24,8 +24,7 @@ const HeroTextMenu = () => {
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.3 }}
         >
-          {" "}
-          BESTÄLLA{" "}
+          BESTÄLLA
         </motion.button>
       </motion.h1>
       {click && <Menu />}
