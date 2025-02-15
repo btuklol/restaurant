@@ -8,7 +8,7 @@ const HeroText = () => {
   const handleClick = () => setClick(!click);
   return (
     <div
-      className={`w-6/12 h-3/6 flex justify-center items-center bg-transparent relative `}
+      className={`w-full h-full flex justify-center items-center bg-transparent relative `}
     >
       <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center bg-transparent z-10 ">
         <button onClick={handleClick}>

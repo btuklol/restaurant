@@ -11,9 +11,9 @@ export default function Home() {
         loop
         src="/sushi.mp4"
       />
-      <div className="absolute top-0 left-0 mx-auto w-full h-screen flex justify-center flex-wrap items-center z-10">
+      <div className="absolute top-0 left-0 mx-auto w-full h-screen flex justify-center flex-wrap items-center z-10 gap-8">
         <Hero />
-        <div id="contact" className="w-full h-screen">
+        <div id="contact" className="w-10/12 h-screen ">
           <ContactPage />
         </div>
       </div>

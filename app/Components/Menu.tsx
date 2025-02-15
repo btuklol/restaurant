@@ -13,34 +13,32 @@ const Menu = () => {
     >
       <div className="flex justify-between max-sm:flex-col items-end relative w-full h-full bg-transparent z-10">
         <motion.div
-          initial={{ y: 50, opacity: 0 }}
+          initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.1 }}
         >
           <a href="#1">
             {" "}
-            <MenuBtn title="Obrsor" />{" "}
+            <MenuBtn title="Örebro" />{" "}
           </a>
         </motion.div>
         <motion.div
-          initial={{ y: 50, opacity: 0 }}
+          initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
           <a href="#2">
             {" "}
-            <MenuBtn title="Obrsor2" />{" "}
+            <MenuBtn title="Lindesberg" />{" "}
           </a>
         </motion.div>
         <motion.div
-          initial={{ y: 50, opacity: 0 }}
+          initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.3 }}
         >
-          <a href="#3">
-            {" "}
-            <MenuBtn title="Салбар 3" />
-          </a>
+          <a href="#3"> </a>
+          <MenuBtn title="Салбар 3" />
         </motion.div>
       </div>
     </div>

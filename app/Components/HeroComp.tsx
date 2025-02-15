@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 const HeroComp = () => {
   return (
-    <section className="w-6/12 h-3/6 flex relative justify-center items-center object-contain">
+    <section className="w-full h-full flex relative justify-center items-center object-contain p-2">
       <div
         className="absolute w-full h-full z-10 bg-white mix-blend-overlay"
         style={{ opacity: 0.6 }}
